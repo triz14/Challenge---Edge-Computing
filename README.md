@@ -1,5 +1,5 @@
 # Challenge - Edge Computing
-Projeto de simulação de um carrinho segue linha
+Projeto que simula um carrinho segue linha
 
 
 
