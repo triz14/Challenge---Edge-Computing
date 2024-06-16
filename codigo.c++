@@ -20,17 +20,17 @@ pinMode(Motor_2, OUTPUT);
 pinMode(dir_1, OUTPUT);
 pinMode(dir_2, OUTPUT);
 
-//Setamos a direção inicial do motor como 0, 
-//isso fará com que ambos os motores girem para frente
-digitalWrite(dir_1, LOW);
-digitalWrite(dir_2, LOW);
-
 //Setamos os pinos dos sensores como entrada
 pinMode(pin_S1, INPUT);
 pinMode(pin_S2, INPUT);
 }
 
 void loop(){
+//Setamos a direção inicial do motor como 0, 
+//isso fará com que ambos os motores girem para frente
+digitalWrite(dir_1, LOW);
+digitalWrite(dir_2, LOW);
+  
 //Neste processo armazenamos o valor lido pelo sensor na 
 //variável que armazena tais dados.
 Sensor_1 = digitalRead(pin_S1);
